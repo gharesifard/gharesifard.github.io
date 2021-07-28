@@ -28,30 +28,16 @@ h1, h2, h3, h4, h5, h6 {
       <a href="group.html" class="w3-bar-item w3-button">Group</a>
       <a href="teaching.html" class="w3-bar-item w3-button">Teaching</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>     
+    </div>     
   </div>
 </div>
 
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-  <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button">News</a>
-  <a href="publications.html" onclick="w3_close()" class="w3-bar-item w3-button">Publications</a>
-  <a href="group.html" onclick="w3_close()" class="w3-bar-item w3-button">Group</a>
-  <a href="teaching.html" onclick="w3_close()" class="w3-bar-item w3-button">Teaching</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
-</nav>
 
 
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1000px;min-width:400px" id="home">
-  <img class="w3-image" src="pics/Dickson+Plaza+aerial.jpeg" alt="UCLA" width="1000" height="400">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:800px" id="home">
+  <img class="w3-image" src="pics/Dickson+Plaza+aerial.jpeg" alt="UCLA" width="1600" height="800">
   <div class="w3-display-right w3-padding-large">
     <font color=#FDFEFE size="+1"><b>Bahman Gharesifard</b> </font><br>
     <font color=#FDFEFE size="+1"><b>Professor</b> </font><br>
@@ -135,33 +121,6 @@ h1, h2, h3, h4, h5, h6 {
   
 <!-- End page content -->
 </div>
-
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
 
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
